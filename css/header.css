@@ -1,0 +1,91 @@
+/*顶部导航 star*/
+.zyh_topnavbox{
+	width: 100%;
+	height:36px;
+	background: #0D0D0D;
+}
+.zyh_topnav{
+	width: 1015px;
+	height: 100%;
+	margin: 0 auto;
+}
+.zyh_topnavleft{
+	width: auto;
+	height: 100%;
+	float: left;
+}
+.zyh_topnavleft .zyh_topnavleftdian{
+	line-height: 36px;
+	color:#FF6E27;
+	font-size: 12px;
+}
+.zyh_topnavleft .zyh_topnavleftzi{
+	font-size: 12px;
+	line-height: 36px;
+	text-align:right;
+	color: #6B6B6B;
+}
+.zyh_topnavright{
+	float: right;
+	width: auto;
+	height: 100%;
+	line-height: 36px;
+}
+.zyh_topnavright li{
+	float: left;
+	width: 94px;
+	height: 100%;
+}
+.zyh_topnavright li img{
+	vertical-align: middle;
+}
+.zyh_topnavright li a{
+	font-size: 12px;
+	color: #6B6B6B;
+	margin-left: 6px;
+
+}
+/*顶部导航 end*/
+/*banner导航 star*/
+.zyh_bannernavbox{
+	width: 100%;
+	height: 103px;
+}
+.zyh_bannernav{
+	width: 1015px;
+	height: 100%;
+	margin: 0 auto;
+}
+.zyh_bannernav .zyh_logo{
+	width:auto;
+	height:auto;
+	float: left;
+	margin-top: 26px;
+}
+.zyh_bannernavright{
+	float: right;
+	width: auto;
+	height: 100%;
+}
+.zyh_bannernavright li{
+	float: left;
+	width: 87px;
+	height: 100px;
+	position: relative;
+}
+.zyh_bannernavright li a{
+	display: none;
+}
+.zyh_bannernavright li a>div{
+	width:100%;
+	height:20px;
+	position: absolute;
+	left:0;
+	top:40px;
+	font-size:12px;
+	color:#fff;
+	text-align: center;
+	line-height:20px;
+	
+}
+/*banner导航 end*/

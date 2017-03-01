@@ -1,0 +1,95 @@
+/*banner star*/
+.zyh_bannerbox{
+	width: 100%;
+	height: 354px;
+}
+.zyh_banner{
+	width: 1015px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.zyh_bannerimgs{
+	width: 1015px;
+	height: 339px;
+	position: relative;
+}
+.zyh_bannerimgs li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+	opacity: 0;
+}
+.zyh_bannertiao{
+	width: 1015px;
+	height: 29px;
+	background: #F3640E;
+	position: absolute;
+	left:0;
+	bottom:0;
+}
+.zyh_bannercircle{
+	width: 60px;
+	height: 29px;
+	position: absolute;
+	left:480px;
+	bottom:0;
+}
+.zyh_bannercircle li{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #fff;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	cursor:pointer;
+}
+.zyh_bannercircle li:hover{
+	width: 8px;
+	height:8px;
+	border-radius: 50%;
+	margin-right:7px;
+	cursor:pointer;
+}
+.zyh_bannerimgs .zyh_bannerimgsxianshi{
+	opacity: 1;
+}
+/*banner end*/
+/*body star*/
+.zyh_bodybox{
+	width: 100%;
+	height: 255px;
+	background: #1A1A1A;
+	padding-top: 20px;
+	margin:0 auto;
+}
+.zyh_bodybox .zyh_body{
+	width: 1015px;
+	height: 254px;
+	margin:0 auto;
+}
+.zyh_bodybox .zyh_body ul{
+	width: 100%;
+	height: 170px;
+	margin-top: 60px;
+	float: left;
+}
+.zyh_bodybox .zyh_body ul li{
+	width:314px;
+	height: 172px;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+}
+.zyh_bodybox .zyh_body ul li img{
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.zyh_bodybox .zyh_body ul li a{
+	display: none;
+}
+/*body end*/
